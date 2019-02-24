@@ -1,8 +1,13 @@
 import React from 'react';
+import ContactList from './ContactList';
 
 class App extends React.Component {
   render() {
-    return <div>App</div>;
+    return (
+      <div>
+        <ContactList />
+      </div>
+    );
   }
 }
 
