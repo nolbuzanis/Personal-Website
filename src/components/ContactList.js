@@ -5,9 +5,10 @@ const ContactList = () => {
   return (
     <div className='sidebar'>
       <li>
-        <a href='https://github.com/nolbuzanis'>
+        <a href='https://ca.linkedin.com/in/nolanbuzanis'>
+          <div className='item-bg' />
           <svg
-            id='Layer_1'
+            id='linkedin'
             height='67px'
             style={{ enableBackground: 'new 0 0 67 67' }}
             version='1.1'
@@ -25,9 +26,10 @@ const ContactList = () => {
         </a>
       </li>
       <li>
-        <a href='https://ca.linkedin.com/in/nolanbuzanis'>
+        <a href='https://www.facebook.com/nolan.buzanis'>
+          <div className='item-bg' />
           <svg
-            id='Layer_1'
+            id='facebook'
             height='67px'
             style={{ enableBackground: 'new 0 0 67 67' }}
             version='1.1'
@@ -45,9 +47,10 @@ const ContactList = () => {
         </a>
       </li>
       <li>
-        <a href='https://www.facebook.com/nolan.buzanis'>
+        <a href='https://github.com/nolbuzanis'>
+          <div className='item-bg' />
           <svg
-            id='Layer_1'
+            id='github'
             height='512px'
             style={{ enableBackground: 'new 0 0 512 512' }}
             version='1.1'
@@ -74,6 +77,7 @@ const ContactList = () => {
       </li>
       <li>
         <a href='mailto:nolanbuzanis@gmail.com'>
+          <div className='item-bg' />
           <svg
             id='mail'
             version='1.1'
