@@ -9,3 +9,26 @@
   opacity: 0.95;
   transition: all ease 0.8s;
 }
+
+.header-content {
+  position: relative;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-family: 'Palatino';
+  letter-spacing: 1.05px;
+  top: 40%;
+}
+
+.header-content h1 {
+  font-size: 64px;
+  font-family: 'Palatino';
+  padding: 0;
+  margin: 0;
+}
+
+.header-content span {
+  display: block;
+  font-size: 22px;
+  padding-bottom: 15px;
+}
