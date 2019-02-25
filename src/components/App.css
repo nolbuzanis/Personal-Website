@@ -7,7 +7,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   opacity: 0.95;
-  transition: all ease 0.8s;
+  transition: all ease 0.5s;
+  text-align: center;
 }
 
 .header-content {
@@ -31,4 +32,22 @@
   display: block;
   font-size: 22px;
   padding-bottom: 15px;
+}
+
+.down-button {
+  position: absolute;
+  bottom: 0px;
+  transition: all ease 0.5s;
+}
+.down-button svg {
+  width: 70px;
+  height: 70px;
+  margin-left: -35px;
+}
+.down-button svg path {
+  fill: rgba(255, 255, 255, 0.7);
+}
+.down-button:hover svg path {
+  fill: rgba(255, 255, 255, 1);
+  transition: all ease 0.5s;
 }
