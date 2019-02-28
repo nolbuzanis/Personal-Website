@@ -1,0 +1,95 @@
+.portfolio-modal {
+  display: none;
+  /*display: block;*/
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.portfolio-modal .container {
+  color: white;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.portfolio-modal .container h2 {
+  padding-bottom: 50px;
+  font-size: 42px;
+  font-variant: small-caps;
+  margin: 0;
+  color: #fdd473;
+}
+
+.portfolio-modal .container p {
+  font-size: 18px;
+  line-height: 28.5px;
+}
+
+.portfolio-modal .container ul li a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.portfolio-modal .container ul {
+  margin: 50px auto;
+  padding: 0px;
+}
+.portfolio-modal .container ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 5px;
+}
+.portfolio-modal .container ul li a:hover {
+  background: white;
+  transition: all ease 0.5s;
+  /*color: #3393FF;*/
+  color: #fdd473;
+}
+.portfolio-modal .container ul li a svg {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+.portfolio-modal .container ul li a span {
+  margin-left: 35px;
+}
+.portfolio-modal .container ul li a:hover svg {
+  /*fill: #3393FF;*/
+  fill: #fdd473;
+  transition: all ease 0.5s;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.modal-close {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.modal-close svg {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+.modal-close svg path {
+  fill: white;
+}
+.modal-close svg:hover path {
+  fill: rgba(255, 255, 255, 0.75);
+  transition: all ease 0.3s;
+}
