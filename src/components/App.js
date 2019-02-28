@@ -34,10 +34,29 @@ class App extends React.Component {
             </svg>
           </a>
         </div>
-        <PortfolioGrid />
+        <PortfolioGrid projects={projects} />
       </div>
     );
   }
 }
+
+const projects = [
+  {
+    title: 'Bits Into Bites',
+    img: 'bitsintobites.png',
+    content:
+      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
+    github: null,
+    link: null
+  },
+  {
+    title: 'Quadcopter',
+    img: 'sunset-background.jpg',
+    content:
+      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
+    github: null,
+    link: null
+  }
+];
 
 export default App;
