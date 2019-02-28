@@ -1,2 +1,41 @@
 .portfolio-item {
+  position: relative;
+  width: 30%;
+  margin: 1%;
+  padding-bottom: 20%;
+  background: url('../img/bitsandbites.png') center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-left: 0 !important;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.portfolio-item .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+  box-sizing: border-box;
+  opacity: 0;
+  border-radius: 5px;
+}
+
+.portfolio-item .overlay h2 {
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  font-size: 24px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  width: 99%;
+}
+
+.portfolio-item:hover .overlay {
+  opacity: 1;
+  transition: ease all 0.5s;
 }
