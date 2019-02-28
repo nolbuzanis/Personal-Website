@@ -6,6 +6,19 @@ import Modal from './Modal';
 import './App.css';
 
 class App extends React.Component {
+  state = { selected: {} };
+
+  selectProject = selectedProject => {
+    console.log('State updated with: ');
+    console.log(selectedProject);
+    this.setState({ selected: selectedProject });
+    this.setState({ modalOpen: true });
+  };
+
+  modalClose = () => {
+    this.setState({ selected: {} });
+  };
+
   render() {
     return (
       <div className='app'>
@@ -35,10 +48,8 @@ class App extends React.Component {
             </svg>
           </a>
         </div>
-        <PortfolioGrid projects={projects} />
-        <div>
-          <Modal />
-        </div>
+        <PortfolioGrid projects={projects} selectProject={this.selectProject} />
+        <Modal project={this.state.selected} modalClose={this.modalClose} />
       </div>
     );
   }

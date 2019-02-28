@@ -1,11 +1,18 @@
 import React from 'react';
 import PortfolioItem from './PortfolioItem';
 
-const PortfolioGrid = ({ projects }) => {
-  console.log(projects);
-
+const PortfolioGrid = ({ projects, selectProject }) => {
   const portfolioList = projects.map(project => {
-    return <PortfolioItem title={project.title} img={project.img} />;
+    return (
+      <PortfolioItem
+        title={project.title}
+        img={project.img}
+        selectProject={selectProject}
+        content={project.content}
+        link={project.link}
+        github={project.github}
+      />
+    );
   });
 
   return (
