@@ -17,17 +17,30 @@ const PortfolioGrid = ({ projects, selectProject }) => {
   });
 
   return (
-    <div
-      id='projects'
-      className='ui grid horontally padded middle aligned
+    <div id='projects' style={{ backgroundColor: 'rgb(20, 24, 31)' }}>
+      <h1
+        style={{
+          color: 'white',
+          textAlign: 'center',
+          fontVariant: 'small-caps',
+          fontSize: '40px',
+          paddingTop: '60px',
+          margin: '0'
+        }}
+      >
+        Portfolio
+      </h1>
+      <div
+        className='ui grid horontally padded middle aligned
       portfolio-grid'
-      style={{
-        backgroundColor: 'rgb(20, 24, 31)',
-        margin: '0 auto',
-        padding: '50px 20px'
-      }}
-    >
-      {portfolioList}
+        style={{
+          backgroundColor: 'rgb(20, 24, 31)',
+          margin: '0 auto',
+          padding: '50px 20px'
+        }}
+      >
+        {portfolioList}
+      </div>
     </div>
   );
 };
