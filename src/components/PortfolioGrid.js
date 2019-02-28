@@ -10,6 +10,7 @@ const PortfolioGrid = ({ projects }) => {
 
   return (
     <div
+      id='projects'
       className='ui grid horontally padded middle aligned
       portfolio-grid'
       style={{

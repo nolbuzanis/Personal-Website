@@ -14,7 +14,7 @@ class App extends React.Component {
             <span>Engineer | Entrepreneur</span>
             <ContactList />
           </div>
-          <a className='down-button' href='/'>
+          <a className='down-button' href='#projects'>
             <svg
               enableBackground='new 0 0 32 32'
               height='32px'
