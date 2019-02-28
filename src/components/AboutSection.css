@@ -1,0 +1,19 @@
+.about-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: block;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: url('../img/sunset-background.jpg') center center no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.profile-description p {
+  padding-top: 20px;
+}

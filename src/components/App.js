@@ -2,6 +2,7 @@ import React from 'react';
 import ContactList from './ContactList';
 import PortfolioGrid from './PortfolioGrid';
 import Modal from './Modal';
+//import AboutSection from './AboutSection';
 
 import './App.css';
 
