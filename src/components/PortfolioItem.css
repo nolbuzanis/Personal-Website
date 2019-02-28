@@ -39,3 +39,18 @@
   opacity: 1;
   transition: ease all 0.5s;
 }
+
+@media only screen and (max-width: 600px) {
+  .portfolio-item {
+    width: 98%;
+    padding-bottom: 50%;
+    margin: 10px 1%;
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  .portfolio-item {
+    width: 48%;
+    padding-bottom: 30%;
+    margin: 10px 1%;
+  }
+}
