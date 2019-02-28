@@ -9,8 +9,6 @@ class App extends React.Component {
   state = { selected: {} };
 
   selectProject = selectedProject => {
-    console.log('State updated with: ');
-    console.log(selectedProject);
     this.setState({ selected: selectedProject });
     this.setState({ modalOpen: true });
   };
@@ -60,16 +58,16 @@ const projects = [
     title: 'Personal Website',
     img: 'website1.png',
     content:
-      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
-    github: null,
-    link: null
+      'After becoming inspired by a variety of creative, online portfolios, I decided to learn HTML, CSS, and JavaScript to create my first online portfolio, a static website. This project is hosted by GitHub Pages and uses Jekyll to replicate modular elements of this website such as individual project pages.',
+    github: 'https://github.com/nolbuzanis/nolanbuzanis.com',
+    link: 'http://www.nolanbuzanis.com/index.html'
   },
   {
     title: 'Ecogrow',
     img: 'pottedplant.jpeg',
     content:
-      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
-    github: null,
+      'The EcoGrow module assists users with growing fresh fruits and vegetables through an Arduino-based monitoring system. The module is an enclosed insulated system which monitors a plant’s humidity, temperature, and light levels. Readings from the HTU21D humidity and temperature sensor, and the photodiode are outputted to an LCD which can be read by the user. The water control mechanism is controlled using a position servo motor, in which signals sent to the motor results in the movement of a rubber stopper, controlling the flow of water to the plant.',
+    github: 'https://github.com/nolbuzanis/EcoGrow',
     link: null
   },
   {
@@ -84,31 +82,31 @@ const projects = [
     title: 'Quadcopter',
     img: 'quadcopter-cool.jpg',
     content:
-      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
-    github: null,
-    link: null
+      'The design and build of an quadcopter, controlled via Arduino. Over 50 different hardware components were part of the final design, including custom 3D printed parts and a repurposed PS2 controller. Unfortunately, the drone was not completed due to the fact that it was stolen. Check out the link below for a video of the full build.',
+    github: 'https://github.com/nolbuzanis/Autonomous-Drone',
+    link: 'https://youtu.be/rW0U2fz6_Jw'
   },
   {
     title: 'Cannabot',
     img: 'cannabot.png',
     content:
-      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
-    github: null,
+      'An integrated skype chatbot used for the tracking, monitoring, and troubleshooting of the growing process for cannabis (and all other) plants. The project was built over the course of 30 hours at a Toronto Hackathon, Hack The Valley 2. We used Python to process the data and run it through a matching algorithm, and Node.js as the backend, using it to communicate with Microsoft’s LUIS machine learning API to determine user input. The user interacts with the chatbot via the Skype Bot framework, and the demo was displayed on a website using a combination of HTML, CSS, and Javascript through the Bootstrap library.',
+    github: 'https://github.com/nolbuzanis/Canna-Bot',
     link: null
   },
   {
     title: 'Get Outside',
     img: 'getoutside.png',
     content:
-      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
-    github: null,
-    link: null
+      'A Vanilla Javascript Web app used to pinpoint interesting locations near you to walk or run to. The Google Maps API, Google Nearby Search API, and HTML Geolocation are used in collaboration to create this app.',
+    github: 'https://github.com/nolbuzanis/Get-Outside',
+    link: 'https://nolbuzanis.github.io/Get-Outside/'
   },
   {
     title: 'Spackler Guitar Pedal',
     img: 'spackler-dramatic.jpg',
     content:
-      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
+      'A mid-range volume boost with the goal of adding "warmth" or "depth" to a guitar signal. It is not my original design, but I chose to build it to learn the fundamentals of PCB design using EagleCAD and improve my soldering and wiring of electronics.',
     github: null,
     link: null
   }
