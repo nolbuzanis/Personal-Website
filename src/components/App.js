@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactList from './ContactList';
+import PortfolioGrid from './PortfolioGrid';
 
 import './App.css';
 
@@ -33,6 +34,7 @@ class App extends React.Component {
             </svg>
           </a>
         </div>
+        <PortfolioGrid />
       </div>
     );
   }
