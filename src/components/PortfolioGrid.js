@@ -5,6 +5,7 @@ const PortfolioGrid = ({ projects, selectProject }) => {
   const portfolioList = projects.map(project => {
     return (
       <PortfolioItem
+        key={project.title}
         title={project.title}
         img={project.img}
         selectProject={selectProject}
