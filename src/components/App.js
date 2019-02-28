@@ -42,6 +42,22 @@ class App extends React.Component {
 
 const projects = [
   {
+    title: 'Personal Website',
+    img: 'website1.png',
+    content:
+      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
+    github: null,
+    link: null
+  },
+  {
+    title: 'Ecogrow',
+    img: 'pottedplant.jpeg',
+    content:
+      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
+    github: null,
+    link: null
+  },
+  {
     title: 'Bits Into Bites',
     img: 'bitsintobites.png',
     content:
@@ -51,7 +67,31 @@ const projects = [
   },
   {
     title: 'Quadcopter',
-    img: 'sunset-background.jpg',
+    img: 'quadcopter-cool.jpg',
+    content:
+      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
+    github: null,
+    link: null
+  },
+  {
+    title: 'Cannabot',
+    img: 'cannabot.png',
+    content:
+      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
+    github: null,
+    link: null
+  },
+  {
+    title: 'Get Outside',
+    img: 'getoutside.png',
+    content:
+      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
+    github: null,
+    link: null
+  },
+  {
+    title: 'Spackler Guitar Pedal',
+    img: 'spackler-dramatic.jpg',
     content:
       'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
     github: null,

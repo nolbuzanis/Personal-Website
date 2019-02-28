@@ -10,9 +10,13 @@ const PortfolioGrid = ({ projects }) => {
 
   return (
     <div
-      className='ui grid horontally padded centered middle aligned
+      className='ui grid horontally padded middle aligned
       portfolio-grid'
-      style={{ backgroundColor: 'rgb(20, 24, 31)', paddingTop: '50px' }}
+      style={{
+        backgroundColor: 'rgb(20, 24, 31)',
+        margin: '0 auto',
+        padding: '50px 20px'
+      }}
     >
       {portfolioList}
     </div>
