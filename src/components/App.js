@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactList from './ContactList';
 import PortfolioGrid from './PortfolioGrid';
+import Modal from './Modal';
 
 import './App.css';
 
@@ -35,6 +36,9 @@ class App extends React.Component {
           </a>
         </div>
         <PortfolioGrid projects={projects} />
+        <div>
+          <Modal />
+        </div>
       </div>
     );
   }
