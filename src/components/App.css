@@ -2,7 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 
-.header {
+.particles {
+  position: absolute;
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(
@@ -11,6 +12,12 @@ html {
     #17234d,
     #0c011a
   );
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+
   /*background: url('../img/forest-mountains.jpg') center center no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
