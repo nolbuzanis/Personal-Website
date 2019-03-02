@@ -1,7 +1,7 @@
 Personal Website
 ==============
 
-I decided to redesign my website from using class/ function based components and explore the world of ReactJS. The website design is simpler than last (it's now a Single Page App), and includes custom styling of modals, overlays, and leverages the powerful particlesJS library to create a captivating header.
+I decided to redesign my website using class/ function based components and explore the world of ReactJS. The website design is simpler than last (it's now a Single Page App), and includes custom styling of modals, overlays, and leverages the powerful particlesJS library to create a interesting header.
 
 **[Visit my website](https://www.nolanbuzanis.com)**
 
