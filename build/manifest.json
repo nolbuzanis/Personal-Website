@@ -1,0 +1,30 @@
+{
+  "short_name": "Nolan Buzanis",
+  "name": "Nolan Buzanis",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicons/favicon-16x16png",
+      "sizes": "16x16",
+      "type": "item/png"
+    },
+    {
+      "src": "/favicons/favicon-32x32png",
+      "sizes": "32x32",
+      "type": "item/png"
+    },
+    {
+      "src": "/favicons/favicon-64x64png",
+      "sizes": "64x64",
+      "type": "item/png"
+    },
+    {
+      "src": "/favicons/favicon-128x128png",
+      "sizes": "128x128",
+      "type": "item/png"
+    }
+  ]
+}
