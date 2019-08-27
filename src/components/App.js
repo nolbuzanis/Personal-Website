@@ -63,7 +63,7 @@ const projects = [
     content:
       'An eCommerce platform for LOUD, a speaker rental service located in Kingston, ON. Uses reusable React components and Redux for the front end, the Stripe API for easy credit card payments, and pushes customer orders to a Google Sheets Spreadsheet using App Scripts + GoogleSheets API. Hosted on Netlify with lambda functions.',
     github: 'https://github.com/nolbuzanis/Loud-Ktown-Website',
-    link: 'http://www.loudktown.com'
+    link: 'https://www.loudktown.com'
   },
   {
     title: 'Personal Website 1',
