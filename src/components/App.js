@@ -71,7 +71,7 @@ const projects = [
     content:
       'After becoming inspired by a variety of creative, online portfolios, I decided to learn HTML, CSS, and JavaScript to create my first online portfolio, a static website. This project is hosted by GitHub Pages and uses Jekyll to replicate modular elements of this website such as individual project pages.',
     github: 'https://github.com/nolbuzanis/nolanbuzanis.com',
-    link: 'http://www.nolanbuzanis.com/index.html'
+    link: 'https://nolbuzanis.github.io/Old-Personal-Website/'
   },
   {
     title: 'Ecogrow',
