@@ -16,7 +16,7 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="favicon" href="%PUBLIC_URL%/favicon.ico" />
     <!-- For localhost -->
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -28,6 +28,21 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Nolan Buzanis</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-104067820-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-104067820-2');
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
