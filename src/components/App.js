@@ -58,6 +58,14 @@ class App extends React.Component {
 
 const projects = [
   {
+    title: 'Impressions',
+    img: 'impressions.png',
+    content:
+      'Discover your unique personal taste in music and discover what makes up the songs you listen to. On Spotify, every song has certain audio features such as acousticness, danceability, energy, and valence. Impressions averages each audio features across your wide-ranging spotify library and pops out a single number which represents where you fall on the scale. Also includes a library tab, with a Spotify Connect Player, to play any saved song and see the audio features of that specific song.',
+    github: 'https://github.com/nolbuzanis/Impressions',
+    link: 'https://secure-sea-10538.herokuapp.com/'
+  },
+  {
     title: 'LOUD Website',
     img: 'loud-website.png',
     content:
