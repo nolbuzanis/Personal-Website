@@ -59,7 +59,7 @@ class App extends React.Component {
 const projects = [
   {
     title: 'Impressions',
-    img: 'impressions.png',
+    img: 'impressions.webp',
     content:
       'Discover your unique personal taste in music and discover what makes up the songs you listen to. On Spotify, every song has certain audio features such as acousticness, danceability, energy, and valence. Impressions averages each audio features across your wide-ranging spotify library and pops out a single number which represents where you fall on the scale. Also includes a library tab, with a Spotify Connect Player, to play any saved song and see the audio features of that specific song.',
     github: 'https://github.com/nolbuzanis/Impressions',
@@ -67,15 +67,31 @@ const projects = [
   },
   {
     title: 'LOUD Website',
-    img: 'loud-website.png',
+    img: 'loud-website.webp',
     content:
       'An eCommerce platform for LOUD, a speaker rental service located in Kingston, ON. Uses reusable React components and Redux for the front end, the Stripe API for easy credit card payments, and pushes customer orders to a Google Sheets Spreadsheet using App Scripts + GoogleSheets API. Hosted on Netlify with lambda functions.',
     github: 'https://github.com/nolbuzanis/Loud-Ktown-Website',
     link: 'https://www.loudktown.com'
   },
   {
+    title: 'Bits Into Bites',
+    img: 'bitsintobites.webp',
+    content:
+      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
+    github: 'https://github.com/nolbuzanis/Bits-Into-Bites',
+    link: 'https://nolbuzanis.github.io/Bits-Into-Bites/'
+  },
+  {
+    title: 'Get Outside',
+    img: 'getoutside.webp',
+    content:
+      'A Vanilla Javascript Web app used to pinpoint interesting locations near you to walk or run to. The Google Maps API, Google Nearby Search API, and HTML Geolocation are used in collaboration to create this app.',
+    github: 'https://github.com/nolbuzanis/Get-Outside',
+    link: 'https://nolbuzanis.github.io/Get-Outside/'
+  },
+  {
     title: 'Personal Website 1',
-    img: 'website1.png',
+    img: 'website1.webp',
     content:
       'After becoming inspired by a variety of creative, online portfolios, I decided to learn HTML, CSS, and JavaScript to create my first online portfolio, a static website. This project is hosted by GitHub Pages and uses Jekyll to replicate modular elements of this website such as individual project pages.',
     github: 'https://github.com/nolbuzanis/nolanbuzanis.com',
@@ -89,17 +105,10 @@ const projects = [
     github: 'https://github.com/nolbuzanis/EcoGrow',
     link: null
   },
-  {
-    title: 'Bits Into Bites',
-    img: 'bitsintobites.png',
-    content:
-      'React-based web app to use up leftover food in the fridge at the end of the week. Search terms are run through the Edamam API, and the results are displayed on the page, where each recipe has an image, calorie count, ingrdient list, health labels, and a link to the page the recipe was originally sourced from.',
-    github: 'https://github.com/nolbuzanis/Bits-Into-Bites',
-    link: 'https://nolbuzanis.github.io/Bits-Into-Bites/'
-  },
+
   {
     title: 'Quadcopter',
-    img: 'quadcopter-cool.jpg',
+    img: 'quadcopter-cool.webp',
     content:
       'The design and build of an quadcopter, controlled via Arduino. Over 50 different hardware components were part of the final design, including custom 3D printed parts and a repurposed PS2 controller. Unfortunately, the drone was not completed due to the fact that it was stolen. Check out the link below for a video of the full build.',
     github: 'https://github.com/nolbuzanis/Autonomous-Drone',
@@ -107,28 +116,20 @@ const projects = [
   },
   {
     title: 'Cannabot',
-    img: 'cannabot.png',
+    img: 'cannabot.webp',
     content:
       'An integrated skype chatbot used for the tracking, monitoring, and troubleshooting of the growing process for cannabis (and all other) plants. The project was built over the course of 30 hours at a Toronto Hackathon, Hack The Valley 2. We used Python to process the data and run it through a matching algorithm, and Node.js as the backend, using it to communicate with Microsoft’s LUIS machine learning API to determine user input. The user interacts with the chatbot via the Skype Bot framework, and the demo was displayed on a website using a combination of HTML, CSS, and Javascript through the Bootstrap library.',
     github: 'https://github.com/nolbuzanis/Canna-Bot',
     link: null
-  },
-  {
-    title: 'Get Outside',
-    img: 'getoutside.png',
-    content:
-      'A Vanilla Javascript Web app used to pinpoint interesting locations near you to walk or run to. The Google Maps API, Google Nearby Search API, and HTML Geolocation are used in collaboration to create this app.',
-    github: 'https://github.com/nolbuzanis/Get-Outside',
-    link: 'https://nolbuzanis.github.io/Get-Outside/'
-  },
-  {
-    title: 'Spackler Guitar Pedal',
-    img: 'spackler-dramatic.jpg',
-    content:
-      'A mid-range volume boost with the goal of adding "warmth" or "depth" to a guitar signal. It is not my original design, but I chose to build it to learn the fundamentals of PCB design using EagleCAD and improve my soldering and wiring of electronics.',
-    github: null,
-    link: null
   }
+  // {
+  //   title: 'Spackler Guitar Pedal',
+  //   img: 'spackler-dramatic.jpg',
+  //   content:
+  //     'A mid-range volume boost with the goal of adding "warmth" or "depth" to a guitar signal. It is not my original design, but I chose to build it to learn the fundamentals of PCB design using EagleCAD and improve my soldering and wiring of electronics.',
+  //   github: null,
+  //   link: null
+  // }
 ];
 
 const particleParams = {
