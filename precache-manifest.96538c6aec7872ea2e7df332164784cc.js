@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "14fc84166ccb6a1d8f89cf3cac4439ea",
-    "url": "/static/media/indo-islands.14fc8416.jpg"
+    "revision": "81eaeeec8e3c2ddf9b6a36683b4207af",
+    "url": "/static/media/impressions.81eaeeec.webp"
   },
   {
-    "revision": "d7678c881c1146502df0",
+    "revision": "bef3eb6c604d1b81d931",
     "url": "/static/css/main.fefd621d.chunk.css"
   },
   {
@@ -20,8 +20,16 @@ self.__precacheManifest = [
     "url": "/static/media/bitsintobites.e7698235.png"
   },
   {
+    "revision": "78feba77274ce3fa7eac31f4fc652c0e",
+    "url": "/static/media/bitsintobites.78feba77.webp"
+  },
+  {
     "revision": "d1ef67f2e5c7a5f660db7713a541ec3e",
     "url": "/static/media/cannabot.d1ef67f2.png"
+  },
+  {
+    "revision": "f9a51fee9e210ced94826df8c2864162",
+    "url": "/static/media/cannabot.f9a51fee.webp"
   },
   {
     "revision": "7af234ca5c5258a5757652828809f5db",
@@ -32,12 +40,28 @@ self.__precacheManifest = [
     "url": "/static/media/getoutside.75da2daf.png"
   },
   {
-    "revision": "d7678c881c1146502df0",
-    "url": "/static/js/main.d7678c88.chunk.js"
+    "revision": "3d4d8e620475ac7f21e6df70a7942d65",
+    "url": "/static/media/getoutside.3d4d8e62.webp"
+  },
+  {
+    "revision": "4af2e640d1052c3c620c7ba62dda9ec0",
+    "url": "/static/media/impressions.4af2e640.png"
+  },
+  {
+    "revision": "bef3eb6c604d1b81d931",
+    "url": "/static/js/main.bef3eb6c.chunk.js"
+  },
+  {
+    "revision": "14fc84166ccb6a1d8f89cf3cac4439ea",
+    "url": "/static/media/indo-islands.14fc8416.jpg"
   },
   {
     "revision": "6682e1855c0251de0eef5bdfd69ad7e2",
     "url": "/static/media/loud-website.6682e185.png"
+  },
+  {
+    "revision": "9305b468a86f6a2cd71c51698de262f4",
+    "url": "/static/media/loud-website.9305b468.webp"
   },
   {
     "revision": "2cb75629bc8e40dc2f18a315b824ca81",
@@ -46,6 +70,10 @@ self.__precacheManifest = [
   {
     "revision": "859c726b0140a55a87b72aced6e1e746",
     "url": "/static/media/quadcopter-cool.859c726b.jpg"
+  },
+  {
+    "revision": "8de4d7b918ac70edce4576a0ca3a9df6",
+    "url": "/static/media/quadcopter-cool.8de4d7b9.webp"
   },
   {
     "revision": "389e3ac9b74798feb6b50e5c1376bc98",
@@ -60,7 +88,11 @@ self.__precacheManifest = [
     "url": "/static/media/website1.c4f6b246.png"
   },
   {
-    "revision": "dfee0419124f7cdbd808c2eb15b14cf6",
+    "revision": "4ab471c2cf957f1f3f8d4ec4b5544bd7",
+    "url": "/static/media/website1.4ab471c2.webp"
+  },
+  {
+    "revision": "18053b8f6798c43a0df38ed0380d780b",
     "url": "/index.html"
   }
 ];
